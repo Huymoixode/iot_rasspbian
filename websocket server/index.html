@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature and Humidity</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature and Humidity Current</h1>
+    <div class="form-group">
+    
+      
+        <label for="user-input" type="value">Nhập tên thành phố:</label>
+        <input type="text" id="user-input" placeholder="hanoi,saigon,london,.....">
+        <button id="submit-btn">Submit</button>
+
+
+       
+        
+    <div class="data-group">
+      <span>Temperature:</span>
+      <span id="temperature">--</span>
+    </div>
+    <div class="data-group">
+        <span>Humidity:</span>
+      <span id="humidity">--</span>
+    </div>
+  </div>
+  <div class="ESP8266">
+    <h1>ESP8266</h1>
+  <div>
+    <div class="love">
+      <span>RELAY_1</span>
+      <input id="switch" type="checkbox">
+      <label class="love-heart" for="switch">
+        <i class="left"></i>
+        <i class="right"></i>
+        <i class="bottom"></i>
+        <div class="round"></div>
+      </label>
+    </div>
+   
+  </div>
+  <div>
+  
+  </div>
+  </div>
+  <label class="ui-switch">
+    <span>RELAY_2</span>
+    <input type="checkbox">
+    <div class="slider">
+      <div class="circle"></div>
+    </div>
+  </label>
+  <span>nhiet do: </span>
+  <span id="temperature1"></span>
+  <br>
+  <span>do am: </span>
+  <span id="humidity1"></span>
+  <script src="client.js"></script>
+</body>
+</html>

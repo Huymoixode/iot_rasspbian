@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons and Data Display</title>
+    <link rel="stylesheet" type="text/css" href="css_button.css">
+</head>
+<body>
+
+    <div class="container">
+        <label class="switch" for="light">
+            <input type="checkbox" id="light">
+            <div class="slider"></div>
+            <div class="slider-card">
+              <div class="slider-card-face slider-card-front"></div>
+              <div class="slider-card-face slider-card-back"></div>
+            </div>
+        </label>
+        <span>Đèn</span>
+
+        <label class="switch" for="servo">
+            <input type="checkbox" id="servo">
+            <div class="slider"></div>
+            <div class="slider-card">
+              <div class="slider-card-face slider-card-front"></div>
+              <div class="slider-card-face slider-card-back"></div>
+            </div>
+        </label>
+        <span>Servo</span>
+
+        <label class="switch" for="horn">
+            <input type="checkbox" id="horn">
+            <div class="slider"></div>
+            <div class="slider-card">
+              <div class="slider-card-face slider-card-front"></div>
+              <div class="slider-card-face slider-card-back"></div>
+            </div>
+        </label>
+        <span>Còi</span>
+
+        <!-- Khu vực hiển thị dữ liệu nhiệt độ và độ ẩm -->
+        <div class="data-display">
+            <div id="temperature-display">Nhiệt độ: <span id="temperature-value">--</span> °C</div>
+            <div id="humidity-display">Độ ẩm: <span id="humidity-value">--</span> %</div>
+        </div>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>
