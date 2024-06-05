@@ -12,9 +12,9 @@ DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 19  # Replace with your GPIO pin
 
 
-api_id = '28741519'  # Thay th? v?i API ID c?a b?n
-api_hash = '13fd535bdc42a7c3af2ed201fb544eb6'  # Thay th? v?i API Hash c?a b?n
-bot_token = '7187467922:AAGVKkTdMTSwXdvRkWgNJdGvUnV5TCPyKnY'  # Thay th? v?i bot token c?a b?n
+api_id = ''  # Thay th? v?i API ID c?a b?n
+api_hash = ''  # Thay th? v?i API Hash c?a b?n
+bot_token = ''  # Thay th? v?i bot token c?a b?n
 
 # T?o m?t instance c?a TelegramClient
 GPIO.setmode(GPIO.BCM)
@@ -140,7 +140,7 @@ servo_sta=None
 horn_sta=None
 async def get_mes_api_coze(user_message):
     
-    token='pat_raTjlBFcDxb407ESrwH2ahfcWjbBBOx72exn8nh1JuvP4JbFaPNcd6EVnUEJrtKt'
+    token=''
     
 
     coze_url="https://api.coze.com/open_api/v2/chat"
